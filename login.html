@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript">
+		function login() {
+			window.location.href = "index.html";
+		}
+	</script>
+</head>
+<body>
+	<div class="login-box">
+		<h2>Login</h2>
+					<form id="form"><center>
+				<div class="input-group">
+				<label for="email">E-Mail Id   :</label>
+				<input type="text" id="email" name="email" placeholder="abc@gmail.com">
+				<div class="error"></div><br><br>
+				</div>
+		
+				<div class="input-group">
+				<label for="pass">Password   :</label>
+				<input type="password" id="password" name="pass" placeholder="eg- abc@04">
+				<div class="error"></div><br><br>
+				</div>
+		
+				<a href="#"><button type="submit" class="subbtn">Log In</button></a>
+				<button type="reset" id="reset">Reset</button><br>
+				
+			   <br><br><br>
+				<p id="switch"><a href="register.html" >Don't have an account?</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<p id="switch"><a href="#" >Forget password</a></p><br><br><button id="back"><a href="index.html">back</a></button><br><br>
+				</form><br><br>
+			</center></form></center>
+		
+	</div>
+</body>
+</html>
